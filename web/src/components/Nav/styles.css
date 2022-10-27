@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+span{
+    color: #fff;
+    
+    transition: 0.3s;
+}
+
+span:hover{
+    opacity: 0.7;
+}
+.logo{
+    width: 90px;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #23232e;
+    height: 20vh;
+}
