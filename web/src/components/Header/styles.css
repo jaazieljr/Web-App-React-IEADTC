@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    border: 0;
+}
+.cont{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-header{
+    width: 100%;
+    min-height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background: linear-gradient(to bottom, #cfeaff, #ffffff);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.button{
+    background-color: transparent;
+    border-radius: 8px;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    color: #2d2d37;
+    padding: 3px 4px;
+    min-width: 120px;
+    border: 1px solid black ;
+    font-family: 'Raleway', sans-serif;
+    
+}
