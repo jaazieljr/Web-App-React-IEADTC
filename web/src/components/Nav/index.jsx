@@ -9,7 +9,6 @@ function Nav() {
         <nav>
             <Link to='/' style={{ textDecoration: 'none' }}><img className="logo" src={Logo} alt="" /></Link>
             
-            
                 <ul className="nav-list">
                     <li>
                         <Link to='/Mensagens' style={{ textDecoration: 'none' }}> <span>Mensagens</span> </Link>
@@ -21,7 +20,7 @@ function Nav() {
                         <Link to='/Login' style={{ textDecoration: 'none' }}><span>Adephos</span></Link>
                     </li>
                     <li>
-                        <Link to='/Login' style={{ textDecoration: 'none' }}><span><img className="lupa" src={Lupa} alt="" /></span></Link>
+                        <span><img className="lupa" src={Lupa} alt="" /></span>
                     </li>
                 </ul>
             <div>
