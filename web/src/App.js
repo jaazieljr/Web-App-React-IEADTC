@@ -5,6 +5,7 @@ import { Home } from "./pages/home";
 import { Mensagens } from "./pages/mensagens";
 import { Contato } from "./pages/contato";
 import { Login } from "./pages/login";
+import { Ofertar } from "./pages/ofertar";
 
 import "./styles.css";
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/mensagens" element = {<Mensagens />}/>
         <Route path="/contato" element = {<Contato />}/>
         <Route path="/login" element = {<Login />}/>
+        <Route path="/ofertar" element = {<Ofertar />}/>
         </Routes>
     </BRouter>
   );

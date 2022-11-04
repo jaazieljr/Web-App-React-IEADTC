@@ -1,77 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-}
-
-span{
-    color: #fff;
-    
-    transition: 0.3s;
-}
-
-span:hover{
-    opacity: 0.7;
-}
-.logo{
-    position: relative;
-    width: 90px;
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-.lupa{
-    
-    width: 25px;
-    font-size: 24px;
-    margin-left: 10px;
-    
-}
-
+@import url('https://fonts.googleapis.com/css2? family= Nunito+Sans:wght@600 & display=swap');
 
 nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #23232e;
-    height: 20vh;
+    background-image: linear-gradient(180deg, #003554 0%, #003554ed  100%);
+    /* background-color: #003554; */
     box-shadow: 0px 3px 10px #464646;
+    font-family: 'Nunito Sans', sans-serif;
 }
-.nav-list{
-    list-style: none;
+
+nav div{
     display: flex;
-   
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 0px;
 }
-.nav-list li{
-    margin-left: 32px;
+
+.logo{
+    width: 100px;
+    transition: .3s;
 }
-.mobile-menu{
-    display: none;
+ .logo:hover{
+   transform:scale(0.9);
+}
+nav div ul{
+     list-style: none; 
+     display: flex;
+     align-items: center;
+     justify-content:left;
+     gap: 20px; 
+     width: 500px;
+}
+
+nav div ul li p{
+    color: aliceblue;
+    transition: .2s;
+}
+nav div ul li p:hover{
+    opacity: 0.9;
+    color:  #FFCF99;
+}
+nav div ul li img {
+    opacity: 0.4;
+    transition: .3s;
     cursor: pointer;
 }
-.mobile-menu div{
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
+nav div ul li img:hover{
+    opacity: 1;
+    transform: scale(1.1); 
+}
+nav div ul li input{
+    background-image: url(./assets/lupa.svg);
+    background-position: left;
+    background-position-x: 4.5px;
+    background-position-y: 4.5px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    height: 30px;
+    border-radius: 20px;
+    width: 30px;
+    transition: .4s;
+}
+nav div ul li input:hover{
+    width: 150px; 
+    border-bottom: 1px solid #FFCF99;
+    background-color: #FFCF99;
+    opacity: 0.9;
 }
 
-@media (max-width: 999px){
-    .nav-list{
-        position:fixed;
-        top: 11vh;
-        right: 0;
-        width: 50vw;
-        height: 15vh;
-        background: #23232e;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-       
-        
-
-    }
-   
+nav div ul li input[type=seach]:hover{
+    margin: 8px 0;
 }
+

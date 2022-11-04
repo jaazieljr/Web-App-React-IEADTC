@@ -1,15 +1,17 @@
+import {Link} from 'react-router-dom'
+import Ofertar from './assets/ofertar.svg'
 import React from 'react'
 import './styles.css'
 const Header = () => {
-    return(
-        <header className="cont">
-            <div className="container-header">
-                    <div>Seja Bem-Vindo à  Igreja Evangélica Assembleia de Deus Templo Central em Guaraciaba do Norte</div>
-                    <div><button className="button">Ofertar</button></div>
-                </div>
-            </header>
-      
+    return (
+       
+        <header>
+            <div>
+               <p> <span>Seja Bem-Vindo</span> à  Igreja Evangélica Assembleia de Deus Templo Central em Guaraciaba do Norte</p>
+                <Link to='/Ofertar' style={{ textDecoration: 'none' }}><button className="button"><img style={{ width: 20}} src={Ofertar} alt="" />Ofertar</button></Link>
+            </div>
+        </header>
     )
 }
 
-export{Header}
+export { Header }
