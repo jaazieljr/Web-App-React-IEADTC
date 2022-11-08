@@ -19,7 +19,7 @@ nav div{
     transition: .3s;
 }
  .logo:hover{
-   transform:scale(0.9);
+   transform:scale(1.02);
 }
 nav div ul{
      list-style: none; 

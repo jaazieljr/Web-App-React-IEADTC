@@ -1,8 +1,5 @@
 import './styles.css'
 import Logo from './assets/logo-PB.svg'
-import Facebook from './assets/icon-facebook.svg'
-import Instagram from './assets/icon-instagram.svg'
-import YouTube from './assets/icon-youtube.svg'
 function Footer() {
     return (
         <footer>
@@ -34,12 +31,12 @@ function Footer() {
 
             <div id="social">
                 <ul>
-                    <li><img src={Facebook} style = {{width: 40}} alt="Facebook" srcset="" /></li>
-                    <li><img src={Instagram} style = {{width: 40}} alt="Instagram" srcset="" /></li>
-                    <li><img src={YouTube} style = {{width: 40}} alt="YouTube" srcset="" /></li>
+                    <li id='one'></li>
+                    <li></li>
+                    <li></li>
                 </ul>
                 <ul>
-                    <li><button></button></li>
+                    <li><div><button></button></div></li>
                 </ul>
 
             </div>

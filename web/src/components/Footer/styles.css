@@ -4,18 +4,16 @@ font-family: 'Nunito Sans', sans-serif;
 footer div{
     border-top: 1px solid grey;
     padding: 35px 0;
-    background-color: black;
-    color: aliceblue;
+    background-color: #000;
+    color: #ffff;
 }
 footer div ul{
-    
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0 90px;
     gap: 7px 10px;
-    
 }
 
 footer div ul li ul{
@@ -23,11 +21,76 @@ footer div ul li ul{
  flex-direction: column;
  align-items: flex-start;
  justify-content: center;
-
 }
 #social{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
 }
+#social ul li{
+    width: 30px;
+    height: 30px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#social ul li div{
+border: 1px solid #ffff;
+width: 30px;
+height: 30px;
+padding:0;
+display: flex;
+align-items:center;
+justify-content:center;
+background-color: #ffff;
+border-radius: 5px;
+padding-top: 7px;
+transition: .3s;
+}
+
+#social ul li div button{
+    border:1px solid #000;
+    width: 15px;
+    height: 15px;
+    border-width: 0 0 2px 2px;
+    transform: rotate(135deg);
+    cursor: pointer;
+}
+
+#social ul li div:hover{
+ opacity: .7;
+}
+#social ul li{
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    transition: .3s;
+}
+#social ul li:hover{
+    transform: scale(1.1);
+}
+#social ul li#one:nth-child(1){
+    background-image: url(./assets/icon-facebook-pb.svg);
+}
+
+#social ul li#one:nth-child(1):hover{
+    background-image: url(./assets/icon-facebook.svg);  
+}
+
+#social ul li:nth-child(2){
+    background-image: url(./assets/icon-instagram-pb.svg);  
+}
+#social ul li:nth-child(2):hover{
+    background-image: url(./assets/icon-instagram.svg);  
+}
+
+#social ul li:nth-child(3){
+    background-image: url(./assets/icon-youtube-pb.svg);  
+}
+#social ul li:nth-child(3):hover{
+    background-image: url(./assets/icon-youtube.svg); 
+}
+
+
+

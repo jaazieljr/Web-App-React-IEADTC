@@ -7,7 +7,6 @@ import { Contato } from "./pages/contato";
 import { Login } from "./pages/login";
 import { Ofertar } from "./pages/ofertar";
 
-import "./styles.css";
 function App() {
   return (
     <BRouter>
