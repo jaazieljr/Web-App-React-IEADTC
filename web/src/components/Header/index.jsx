@@ -2,7 +2,7 @@ import {Link} from 'react-router-dom'
 import Ofertar from './assets/ofertar.svg'
 import React from 'react'
 import './styles.css'
-const Header = () => {
+function Header () {
     return (
        
         <header>

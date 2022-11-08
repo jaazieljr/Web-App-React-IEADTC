@@ -3,7 +3,6 @@ import React from "react"
 import './styles.css'
 
 import Logo from './assets/logo.svg'
-import Lupa from './assets/lupa.svg'
 
 function Nav() {
     return (

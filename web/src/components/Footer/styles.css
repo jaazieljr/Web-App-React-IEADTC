@@ -1,0 +1,17 @@
+footer{
+border: 1px solid red;
+font-family: 'Nunito Sans', sans-serif;
+}
+footer div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+footer div ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

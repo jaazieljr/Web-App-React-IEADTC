@@ -58,15 +58,28 @@ nav div ul li input{
     border-radius: 20px;
     width: 30px;
     transition: .4s;
+    
 }
 nav div ul li input:hover{
     width: 150px; 
     border-bottom: 1px solid #FFCF99;
     background-color: #FFCF99;
     opacity: 0.9;
+    font-size: 15px;
+    color: #003554;
+    padding-left: 30px;
+    
+    
+
 }
 
-nav div ul li input[type=seach]:hover{
-    margin: 8px 0;
+nav div ul li input:focus{
+    outline: 0;
+    width: 150px; 
+    border-bottom: 1px solid #FFCF99;
+    background-color: #FFCF99;
+    opacity: 0.9;
+    font-size: 15px;
+    color: #003554;
+    padding-left: 30px;
 }
-
